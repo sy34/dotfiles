@@ -168,3 +168,4 @@ if which aws > /dev/null; then
   export AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id)
   export AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key)
 fi
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
