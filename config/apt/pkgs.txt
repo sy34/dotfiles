@@ -1,0 +1,6 @@
+silversearcher-ag
+build-essential
+curl
+file
+git
+make
